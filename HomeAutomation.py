@@ -25,7 +25,7 @@ spi.open(0,0)
 tempChannel = 0
 
 # MQTT connection parameters
-client = mqtt.Client("Anish")
+client = mqtt.Client("Kunal")
 client.connect("localhost")
 
 #Read 10 bit ADC channel 0
